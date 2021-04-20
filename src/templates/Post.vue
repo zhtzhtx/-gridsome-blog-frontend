@@ -6,7 +6,7 @@
       :style="
         $page.post.cover
           ? {
-              backgroundImage: `url(${GRIDSOME_API_URL+$page.post.cover.url})`,
+              backgroundImage: `url('${GRIDSOME_API_URL+$page.post.cover.url}')`,
             }
           : ''
       "
